@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[1149],{7645:(e,s,a)=>{a.r(s),a.d(s,{default:()=>i});var h=a(4848);function i(){return(0,h.jsx)("h1",{children:"C page"})}}}]);
