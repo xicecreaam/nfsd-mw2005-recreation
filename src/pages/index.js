@@ -25,7 +25,7 @@ export default function Home() {
           </h2>
           <ul style={{ listStyleType: 'none', padding: 0, marginTop: '1rem' }}>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 1</Link> by <Link to="https://www.speedrun.com/users/LokyZen" style={{ color: '#f55' }}>LokyZen </Link> (FG), <Link to="https://www.youtube.com/@hornoaca" style={{ color: '#f55' }}>Scorpion</Link> (DT & FWD DS) and <Link to="https://www.youtube.com/@gamerthebanning" style={{ color: '#f55' }}>GTB</Link> (RWD DS)
+              (WIP) <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 1</Link> by <Link to="https://www.speedrun.com/users/LokyZen" style={{ color: '#f55' }}>LokyZen </Link> (FG), <Link to="https://www.youtube.com/@hornoaca" style={{ color: '#f55' }}>Scorpion</Link> (DT & FWD DS) and <Link to="https://www.youtube.com/@gamerthebanning" style={{ color: '#f55' }}>GTB</Link> (RWD DS)
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
               <Link to="#" style={{ color: '#f55' }}>Need for Speed: Underground 2</Link> by <Link to="https://www.speedrun.com/users/SlivenKage" style={{ color: '#f55' }}>SlivenKage</Link>
@@ -40,7 +40,7 @@ export default function Home() {
               <Link to="#" style={{ color: '#f55' }}>Need for Speed: ProStreet</Link> by <Link to="https://www.speedrun.com/users/icecreaam" style={{ color: '#f55' }}>IceCream</Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              <Link to="#" style={{ color: '#f55' }}>Need for Speed: Undercover </Link>
+              (WIP) <Link to="#" style={{ color: '#f55' }}>Need for Speed: Undercover </Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
               <Link to="#" style={{ color: '#f55' }}>Need for Speed: The Run</Link> by <Link to="https://www.speedrun.com/users/ItzSamOnPC" style={{ color: '#f55' }}>ItzSamOnPC</Link>
