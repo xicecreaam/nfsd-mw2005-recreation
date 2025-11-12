@@ -38,11 +38,11 @@
   color: #d94d4c;
 }
 
-.navbar .logo {
+.navbar__brand {
   color: white;
   transition: color 0.3s;
 }
 
-.navbar .logo:hover  {
+.navbar__brand:hover  {
   color: #d94d4c;
 }
