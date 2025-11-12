@@ -3,6 +3,45 @@ id: index
 title: Most Wanted (2005)
 ---
 
-import DocCardList from '@theme/DocCardList';
+import Link from '@docusaurus/Link';
+import styles from './mw05.module.css';
 
-<DocCardList />
+# Most Wanted (2005)
+
+<div className={styles.cardsGrid}>
+
+  <Link to="/nfsd-recreation/mw05/setup" className={styles.card}>
+    <h3>Setting up for speedruns</h3>
+    <p>All the information needed to set up the PC version of MW05 for speedruns.</p>
+  </Link>
+
+  <Link to="/nfsd-recreation/mw05/general" className={styles.card}>
+    <h3>General Information</h3>
+    <p>Basic information for all game speedrunners.</p>
+  </Link>
+
+  <Link to="/nfsd-recreation/mw05/simple-any" className={styles.card}>
+    <h3>Simple Career Any% guide</h3>
+    <p>The best route for new runners.</p>
+  </Link>
+
+  <Link to="/nfsd-recreation/mw05/inter-any" className={styles.card}>
+    <h3>Intermediate Career Any% guide</h3>
+    <p>Getting serious.</p>
+  </Link>
+
+  <Link to="/nfsd-recreation/mw05/info" className={styles.card}>
+    <h3>Advanced Information</h3>
+    <p>Advanced info for those who want to delve deeper.</p>
+  </Link>
+
+  <Link to="/nfsd-recreation/mw05/expert-any" className={styles.card}>
+    <h3>Expert Career Any% route</h3>
+    <p>Your path to the top.</p>
+  </Link>
+
+</div>
+
+<div className={styles.nextButton}>
+  <Link to="/nfsd-recreation/mw05/setup">Next: Setting up for speedruns »</Link>
+</div>
