@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "update-site": "node scripts/update-site.js"
+    "update": "node scripts/update-site.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",
