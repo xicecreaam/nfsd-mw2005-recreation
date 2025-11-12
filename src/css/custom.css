@@ -48,11 +48,10 @@
 }
 
 .theme-doc-sidebar-container {
-  flex: 0 0 250px;
   width: 250 !important;
+  flex: 0 0 250px;
 }
 
-/* Réduit un peu le padding intérieur */
 .theme-doc-sidebar-container .menu__list-item {
   padding: 3px 0;
 }
@@ -61,11 +60,6 @@
 .theme-doc-sidebar-item-category .menu__list-item {
   margin-top: 4px;
   margin-bottom: 4px;
-}
-
-/* Ajuste le contenu principal pour correspondre */
-.theme-doc-main {
-  margin-left: 250px !important;
 }
 
 .menu__link {
