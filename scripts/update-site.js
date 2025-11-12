@@ -32,6 +32,7 @@ rl.question('Message de commit: ', (msg) => {
 
   // Build et deploy
   run('yarn build');
+  run('yarn deploy');
 
   console.log('\n✅ Site mis à jour et déployé !');
   rl.close();
