@@ -1,0 +1,84 @@
+.pageWrapper {
+  width: 100%;
+  padding: 32px 16px;
+}
+
+.pageTitle {
+  margin-bottom: 32px;
+}
+
+/* Grille responsive */
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+@media (max-width: 996px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Cartes */
+.cardContainer {
+  display: block;
+  padding: 32px;
+  height: 125px;
+  border: 1px solid #2d2e30;
+  border-radius: 4px;
+  text-decoration: none !important;
+  background: #1b1b1d;
+  overflow: hidden;
+  transition: border 0.2s ease;
+}
+
+.cardContainer:hover {
+  border-color: #801a1a;
+}
+
+/* Titre */
+.cardTitle {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Texte */
+.cardText {
+  margin: 0;
+  color: #d0d0d0;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Carte Next */
+.nextCardWrapper {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nextCard {
+  padding: 32px;
+  border: 1px solid #2d2e30;
+  width: 520px;
+  text-decoration: none !important;
+  transition: border 0.2s ease;
+}
+
+.nextCard:hover {
+  border-color: #801a1a;
+}
+
+.nextTitle {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+}
