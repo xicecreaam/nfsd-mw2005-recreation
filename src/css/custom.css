@@ -123,20 +123,35 @@
   justify-content: flex-end !important; /* <<< met la carte Next à droite */
 }
 
-/* Supprimer les marges horizontales imposées par Docusaurus */
-.container {
-  max-width: 100% !important;
-  width: 100% !important;
+/* === FULL WIDTH LAYOUT FOR DOCS PAGES === */
+
+.mwFullWidth {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/* Le container principal des pages docs */
-.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-index-module {
+.mwFullWidth .container {
   max-width: 100% !important;
   width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mwFullWidth .row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mwFullWidth main {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.mwFullWidth .theme-doc-markdown,
+.mwFullWidth .docMainContainer {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
