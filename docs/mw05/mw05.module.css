@@ -20,7 +20,6 @@
 
 /* CARTE */
 .card {
-  width: 100%; /* pour remplir la colonne */
   height: 125px;
   padding: 32px;
   border: 1px solid #2d2e30;
@@ -44,19 +43,23 @@
 /* TITRE DE LA CARTE */
 .cardTitle {
   min-height: 26px;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--ifm-color-content) !important;
-  margin: 0 0 12px 0;
+  margin: 0 0 24px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.text--truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+.cardDescription {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: var(--ifm-color-content);
+
+  white-space: normal;
+  overflow: visible;
+  text-overflow: ellipsis;
 }
 
 /* RESPONSIVE : 1 seule colonne sous 996px */
