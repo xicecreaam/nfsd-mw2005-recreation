@@ -100,10 +100,6 @@
   fill: #d94d4c;
 }
 
-:root {
-  --content-max-width: 1600px; /* tu peux ajuster ici */
-}
-
 /* Bordure rouge au survol */
 .pagination-nav__link {
   width: 100%;
