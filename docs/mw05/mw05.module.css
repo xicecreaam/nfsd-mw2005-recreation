@@ -1,20 +1,7 @@
-.container {
-    margin: 0 auto;
-    max-width: var(--ifm-container-width)
-}
-
-.container--fluid {
-    max-width: inherit
-}
-
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
-}
-
-.col[class*=col--] {
-  flex: 0 0 var(--ifm-col-width);
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  gap: 32px;
 }
 
 @media (max-width: 996px) {
@@ -25,29 +12,21 @@
     }
 }
 
-.margin-bottom--lg, .margin-vert--lg {
-  margin-bottom: 2rem !important;
-}
-
-.col--4 {
-    --ifm-col-width: 33.33333%;
-}
-
-.col, .container {
-    --ifm-col-width: 100%;
-    flex: 1 0;
-    margin-left: 0;
-    max-width: var(--ifm-col-width);
-}
-
 .cardContainer {
-    --ifm-link-color: var(--ifm-color-emphasis-800);
-    --ifm-link-hover-color: var(--ifm-color-emphasis-700);
-    --ifm-link-hover-decoration: none;
-    border: 1px solid var(--ifm-color-emphasis-200);
-    box-shadow: 0 1.5px 3px 0 #00000026;
-    transition: all var(--ifm-transition-fast) ease;
-    transition-property: border, box-shadow;
+  border: 1px solid #2d2e30;
+  border-radius: 12px;
+  padding: 32px;               /* marge interne EXACTE */
+  background-color: #212122;   /* surface */
+  height: 125px;               /* hauteur FIXE */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: border 150ms ease, box-shadow 150ms ease;
+}
+
+.cardContainer:hover {
+  border-color: #d94c4c;
+  box-shadow: 0 1.5px 3px #0004;
 }
 
 .card {
@@ -59,17 +38,11 @@
     overflow: hidden;
 }
 
-.padding--lg {
-    padding: 2rem !important;
-}
-
-a {
-    color: var(--ifm-link-color);
-    text-decoration: var(--ifm-link-decoration);
-}
-
 .cardTitle {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 24px;  /* écart texte <-> titre */
 }
 
 .text--truncate {
@@ -78,22 +51,9 @@ a {
     white-space: nowrap;
 }
 
-h2 {
-    font-size: var(--ifm-h2-font-size);
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: var(--ifm-heading-color);
-    font-family: var(--ifm-heading-font-family);
-    font-weight: var(--ifm-heading-font-weight);
-    line-height: var(--ifm-heading-line-height);
-    margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
-}
-
 .cardDescription {
-    font-size: 0.8rem;
+  color: var(--ifm-color-content);
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
-p {
-    margin: 0 0 var(--ifm-paragraph-margin-bottom);
-}
