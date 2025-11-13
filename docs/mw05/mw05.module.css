@@ -43,13 +43,20 @@
 
 /* TITRE DE LA CARTE */
 .cardTitle {
-  font-size: 1.2rem;
+  min-height: auto;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--ifm-color-content) !important;
   margin: 0 0 12px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.text--truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* RESPONSIVE : 1 seule colonne sous 996px */
