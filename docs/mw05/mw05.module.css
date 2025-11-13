@@ -10,6 +10,11 @@
   width: 100%;
   max-width: 520px;
   min-width: 520px;
+  height: 125px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
 
   background-color: var(--ifm-background-surface-color);
   border: 1px solid #2d2f30;
@@ -42,10 +47,18 @@
 .card h3 {
   margin: 0 0 0.35rem 0;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 700;
+  color: var(--ifm-color-content) !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
   color: var(--ifm-color-content-secondary);
   font-size: 0.9rem;
   margin: 0;

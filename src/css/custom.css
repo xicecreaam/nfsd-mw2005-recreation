@@ -128,7 +128,7 @@
 }
 
 .pagination-nav {
-  display: flex;
-  justify-content: flex-end; /* <<< met la carte Next à droite */
+  display: flex !important;
+  justify-content: flex-end !important; /* <<< met la carte Next à droite */
 }
 
