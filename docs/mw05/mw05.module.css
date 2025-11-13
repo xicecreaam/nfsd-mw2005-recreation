@@ -1,6 +1,6 @@
 .cardsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -30,19 +30,4 @@
   color: var(--ifm-color-content-secondary);
   font-size: 0.9rem;
   margin: 0;
-}
-
-.nextButton {
-  text-align: right;
-  margin-top: 2rem;
-}
-
-.nextButton a {
-  font-weight: 600;
-  color: #d94d4c;
-  text-decoration: none;
-}
-
-.nextButton a:hover {
-  text-decoration: underline;
 }

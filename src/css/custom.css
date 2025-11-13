@@ -48,8 +48,8 @@
 }
 
 .theme-doc-sidebar-container {
-  width: 240 !important;
-  flex: 0 0 250px;
+  width: 250px !important;
+  flex: 0 1 250px;
 }
 
 .theme-doc-sidebar-container .menu__list-item {
@@ -93,4 +93,14 @@
 .container {
   max-width: 100% !important;
   width: 100% !important;
+}
+
+/* === Couleur rouge du texte de la section active dans le fil d’Ariane === */
+.breadcrumbs__link--active {
+  color: #d94d4c !important; /* rouge vif */
+}
+
+/* Devient rouge uniquement au survol */
+.breadcrumbs__item:first-child a:hover svg path {
+  fill: #d94d4c;
 }
