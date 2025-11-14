@@ -1,0 +1,60 @@
+import React from 'react';
+import DocPage from '@theme/DocPage';
+import {useDocSidebar} from '@docusaurus/plugin-content-docs/client';
+import styles from './mw05.module.css';
+
+export default function MW05Index() {
+  const sidebar = useDocSidebar();
+
+  return (
+    <DocPage sidebar={sidebar}>
+        <div className="margin-top--lg">
+            <div className="row list">
+
+                <div className="col col--4 margin-bottom--lg">
+                    <a className={styles.cardContainer} href="/nfsd-recreation/mw05/setup">
+                        <h2 className={styles.cardTitle}>📄 Setting up for speedruns</h2>
+                        <p className={styles.cardText}>All the information needed to set up the PC version of MW05 for speedruns.</p>
+                    </a>
+                </div>
+
+                <div className="col col--4 margin-bottom--lg">   
+                    <a className={styles.cardContainer} href="/nfsd-recreation/mw05/general">
+                        <h2 className={styles.cardTitle}>📄 General information</h2>
+                        <p className={styles.cardText}>Basic information for full game speedruns everyone should know.</p>
+                    </a> 
+                </div>
+
+                <div className="col col--4 margin-bottom--lg">   
+                    <a className={styles.cardContainer} href="/nfsd-recreation/mw05/simple-any">
+                        <h2 className={styles.cardTitle}>📄 Simple Career Any% guide</h2>
+                        <p className={styles.cardText}>The best Any% route for new runners.</p>
+                    </a>
+                </div>
+
+                <div className="col col--4 margin-bottom--lg">
+                    <a className={styles.cardContainer} href="/nfsd-recreation/mw05/setup">
+                        <h2 className={styles.cardTitle}>📄 Intermediate Career Any% guide</h2>
+                        <p className={styles.cardText}>Getting serious.</p>
+                    </a>
+                </div>
+
+                <div className="col col--4 margin-bottom--lg">   
+                    <a className={styles.cardContainer} href="/nfsd-recreation/mw05/general">
+                        <h2 className={styles.cardTitle}>📄 Advanced information</h2>
+                        <p className={styles.cardText}>Advanced information for those who want to delve deeper.</p>
+                    </a> 
+                </div>
+
+                <div className="col col--4 margin-bottom--lg">   
+                    <a className={styles.cardContainer} href="/nfsd-recreation/mw05/simple-any">
+                        <h2 className={styles.cardTitle}>📄 Expert Career Any% route</h2>
+                        <p className={styles.cardText}>Your path to the top.</p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </DocPage>
+    );
+}
