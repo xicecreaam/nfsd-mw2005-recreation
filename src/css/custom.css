@@ -117,14 +117,44 @@
   justify-content: flex-end !important; /* <<< met la carte Next à droite */
 }
 
-/* Supprime complètement les marges horizontales des pages docs */
-.theme-doc-page .container,
-.theme-doc-page .container.margin-vert--lg,
+/* Conteneur principal des pages docs */
+.theme-doc-page {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Conteneur max-width de Docusaurus */
+.theme-doc-page .container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Conteneur hashé généré par Docusaurus (ex: docMainContainer_xYZ) */
 .theme-doc-page [class*="docMainContainer"] {
   max-width: 100% !important;
   width: 100% !important;
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-  padding-right: 0 !important;
   padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Zone markdown interne */
+.theme-doc-page .theme-doc-markdown {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Conteneur interne qui rajoute du padding */
+.theme-doc-page main[class*="docMain"] {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
 }
