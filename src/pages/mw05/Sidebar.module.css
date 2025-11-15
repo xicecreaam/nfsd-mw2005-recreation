@@ -1,0 +1,45 @@
+.sidebar {
+  width: 250px !important;
+  height: 100vh;
+  position: fixed;
+  top: var(--ifm-navbar-height);
+  left: 0;
+
+  background: var(--ifm-background-surface-color);
+  border-right: 1px solid var(--ifm-color-emphasis-200);
+
+  padding: 1rem 1.2rem;
+  overflow-y: auto;
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.list li {
+  margin: 0.4rem 0;
+}
+
+.list li a {
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+  font-size: 0.95rem;
+}
+
+.list li a:hover {
+  color: #d94d4c !important;
+}
+
+.divider {
+  margin: 1rem 0;
+  border: none;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
