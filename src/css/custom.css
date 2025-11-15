@@ -31,24 +31,13 @@ html {
 }
 
 @media (min-width: 997px) {
-  .theme-doc-main-container .docItemCol,
-  .theme-doc-content .docItemCol,
-  .docItemCol.docItemCol,
-  .container .docItemCol {
+  html body .docItemCol,
+  html body .docItemCol.docItemCol,
+  html body .theme-doc-main-container .docItemCol,
+  html body .container .docItemCol {
     max-width: 100% !important;
-    flex: 1 1 auto !important;
     width: 100% !important;
-  }
-  .container {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    max-width: 100% !important;
-  }
-
-  .row {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    max-width: 100% !important;
+    flex: 1 1 auto !important;
   }
 }
 
