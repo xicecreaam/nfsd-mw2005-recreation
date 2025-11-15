@@ -31,10 +31,8 @@ html {
 }
 
 @media (min-width: 997px) {
-  [class*="docItemCol_"] {
+  .row > *[class*="docItemCol_"] {
     max-width: 100% !important;
-    width: 100% !important;
-    flex: 1 1 auto !important;
   }
 }
 
