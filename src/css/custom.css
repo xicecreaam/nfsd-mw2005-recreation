@@ -30,6 +30,10 @@ html {
   background-color: #191919 !important;
 }
 
+.theme-doc-toc-desktop {
+  width: 250px !important;
+}
+
 .navbar__link {
   color: white;
   transition: color 0.3s;
