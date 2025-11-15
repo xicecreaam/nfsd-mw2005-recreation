@@ -30,6 +30,11 @@ html {
   background-color: #191919 !important;
 }
 
+.col.col--7 {
+  flex: 1 1 auto !important;
+  max-width: none !important;
+}
+
 .col.col--3:has(.theme-doc-toc-desktop) {
   max-width: 250px !important;
   width: 250px !important;
