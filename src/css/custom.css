@@ -30,12 +30,10 @@ html {
   background-color: #191919 !important;
 }
 
-.theme-doc-main-container + .col.col--3,
-.theme-doc-content + .col.col--3 {
-  flex: 0 0 250px !important;
+.col.col--3:has(.theme-doc-toc-desktop) {
   max-width: 250px !important;
   width: 250px !important;
-
+  flex: 0 1 250px;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
