@@ -96,6 +96,7 @@
 .menu__link--active,
 .menu__link--active:hover {
   color: #d94d4c !important;
+  text-decoration: none;
 }
 
 .menu__list-item {
