@@ -162,3 +162,6 @@ footer .theme-layout-footer-column:first-child .footer__items.clean-list {
   grid-template-columns: repeat(2, minmax(0, 12.5rem)) !important;
 }
 
+footer {
+  outline: 10px solid red !important;
+}
