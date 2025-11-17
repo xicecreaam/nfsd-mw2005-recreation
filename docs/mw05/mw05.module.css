@@ -10,10 +10,13 @@
   flex-direction: column;
   height: 100%;
   border-radius: 12px;
-  border: 1px solid var(--ifm-color-emphasis-800);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  --ifm-link-color: var(--ifm-color-emphasis-800);
+  --ifm-link-hover-color: var(--ifm-color-emphasis-700);
+  --ifm-link-hover-decoration: none;
   background: var(--ifm-card-background-color);
-  padding: 1.5rem !important;
   transition: all var(--ifm-transition-fast) ease;
+  transition-property: border, box-shadow;
 }
 
 .cardContainer:hover {
