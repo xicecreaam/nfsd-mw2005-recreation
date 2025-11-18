@@ -56,7 +56,7 @@
 }
 
 @media (min-width: 1537px) {
-  .docSidebarContainer {
+  .theme-doc-sidebar-container {
     width: 15%;
   }
 }
