@@ -11,6 +11,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-container-width: 100% !important;
   --ifm-container-width-xl: 100% !important;
+  --doc-sidebar-width: 100%;
   --ifm-background-color: #181819;
   --ifm-background-surface-color: #212122;
 }
@@ -53,23 +54,20 @@
       padding: 0.5rem 0.25rem 0.5rem 0.5rem;
     }
   }
-  .docMainContainer_TBSr {
-    max-width: auto;
-  }
-  .sidebar_njMd {
-    width: 100%;
+  .docMainContainer {
+    max-width: none;
   }
 }
 
 @media (min-width: 1537px) {
-  .docSidebarContainer_YfHR {
+  .docSidebarContainer {
     width: 15%;
   }
 }
 
 @media (min-width: 997px) {
   @media (min-width: 1537px) {
-    .docSidebarContainer_YfHR {
+    .docSidebarContainer {
       width: 15%;
     }
   }
