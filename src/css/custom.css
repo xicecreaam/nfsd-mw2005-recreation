@@ -56,17 +56,20 @@
   .docMainContainer {
     max-width: none;
   }
+  .theme-doc-sidebar-item .docSidebarContainer {
+    width: 20%;
+  }
 }
 
 @media (min-width: 1537px) {
-  .docSidebarContainer {
+  .theme-doc-sidebar-item .docSidebarContainer {
     width: 15%;
   }
 }
 
 @media (min-width: 997px) {
   @media (min-width: 1537px) {
-    .docSidebarContainer {
+    .theme-doc-sidebar-item .docSidebarContainer {
       width: 15%;
     }
   }
