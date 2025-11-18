@@ -28,8 +28,8 @@
   box-shadow: 0 4px 8px #0004;
 }
 
-.cardContainer:last-child {
-    margin-bottom: 0;
+.cardContainer p:last-child {
+  margin-bottom: var(--ifm-paragraph-margin-bottom) !important;
 }
 
 .cardTitle {
