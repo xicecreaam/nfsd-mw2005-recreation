@@ -54,10 +54,13 @@
     }
   }
   main[class^="docMainContainer"] {
-    max-width: none !important;
+    max-width: none;
   }
   .theme-doc-sidebar-container {
     width: 20%;
+  }
+  .theme-doc-sidebar-container [class^="sidebar_"] {
+    width: 100%;
   }
 }
 
