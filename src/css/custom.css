@@ -55,12 +55,6 @@
   }
 }
 
-@media (min-width: 1537px) {
-  .theme-doc-sidebar-container {
-    width: 15%;
-  }
-}
-
 .col.col--3:has(.theme-doc-toc-desktop) {
   max-width: 250px !important;
   width: 250px !important;
@@ -95,7 +89,6 @@
 
 .menu {
   font-size: .95rem;
-  overflow-x: hidden;
 }
 
 .menu__link--active,
