@@ -70,10 +70,6 @@
   border-right: 1px solid #2c2e30;
 }
 
-.theme-doc-sidebar-container .menu__list-item {
-  padding: 3px 0;
-}
-
 .theme-doc-sidebar-item-link,
 .theme-doc-sidebar-item-category .menu__list-item {
   margin-top: 4px;
@@ -81,9 +77,7 @@
 }
 
 .menu {
-  font-weight: var(--ifm-font-weight-semibold);
   font-size: .95rem;
-  overflow-x: hidden;
 }
 
 .menu__caret {
@@ -97,9 +91,8 @@
   text-decoration: none;
 }
 
-.menu__list-item {
-  margin: 0;
-  padding: 0;
+.menu__list-item:not(:first-child) {
+    margin-top: .25rem;
 }
 
 /* === Couleur rouge du texte de la section active dans le fil d’Ariane === */
