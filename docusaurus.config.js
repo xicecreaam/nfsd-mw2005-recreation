@@ -1,9 +1,13 @@
 import {themes as prismThemes} from 'prism-react-renderer';
+import Head from '@docusaurus/Head';
+
+<Head>
+  <title>Welcome to Need for SpeedDocs Reborn</title>
+</Head>
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to Need for SpeedDocs Reborn',
-  titleTemplate: '%s | Need for SpeedDocs Reborn',
+  title: 'Need for SpeedDocs Reborn',
   tagline: 'This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website. Currently looking for contributors to expand.',
   favicon: 'img/nfsd-logo.png',
 
@@ -54,7 +58,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      titleTemplate: '%s | Need for SpeedDocs Reborn',
       image: 'img/nfsd-logo.png',
       colorMode: {
         defaultMode: 'dark',
