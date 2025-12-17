@@ -34,5 +34,20 @@ Speedbreaker allows the player to enter a temporary state of slow motion. But it
 
 ## Police & pursuits mechanics
 
+The maximum number of cops that can chase you at a given time is different based on the condition you are in :
+
+* Condition 1 = **4 cops**
+* Condition 2 = **5 cops**
+* Condition 3 = **6 cops**
+* Condition 4 = **7 cops**
+* Condition 5 = **8 cops**
+
+You start getting a helicopter and spike spawns at condition 4. You can kill the helicopter if it flies over a triggered pursuit breaker *(it can also trigger the tire and donut pursuit breakers by itself and kill itself)*. To know if you killed the helicopter, your bounty should end on a number that’s not 0 e.g. `18` or `54`. For some reasons, the bounty reward of the helicopter is missing and when you kill it, you are granted a random small amount of bounty.
+
 When you kill cops, you can benefit of something called `bounty combo`. See it like a multiplier set to your bounty grind : you kill one cop and you will have its `cop bounty reward x 1`. You kill another cop, `cop bounty reward x 2`. You kill a third cop, `cop bounty reward x 3`. This combo stays for exactly 10 seconds between each kill. If you don't kill any cop within this window, the combo will drop to the `x 1` multiplier.
 
+Always try to get a full combo kill on cops. Be **patient**, wait for all of your cops to be around you and then kill them on a pursuit breaker to maximize your bounty. The key is to not just randomly go around at max speed.
+
+While being chase, you can know when a cop spawn thanks to UI : if the Cost to State popup rises without you hitting any object on the road, it is the indicator a new cop has spawned.
+
+The best way to kill cops in a block is to approach it in a diagonal pattern by hitting them at the back.
