@@ -202,3 +202,12 @@
   border: none;
   border-radius: 8px;
 }
+
+.tabs__item {
+  padding: 8px 16px;     /* ↓ padding vertical */
+  line-height: 1.2;      /* ↓ au lieu d’un line-height énorme */
+}
+
+.tabs__item--active {
+  border-bottom-width: 2px; /* garde le style actif propre */
+}
