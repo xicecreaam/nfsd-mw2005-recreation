@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Need for SpeedDocs Reborn',
   tagline: 'This website is aiming to rehost speedrunning documentation for most Need for Speed games that has been shut down by Balathruin himself, creator of the original website. Currently looking for contributors to expand.',
-  favicon: 'img/nfsd-logo.gif',
+  favicon: 'img/nfsd-logo-v2.png',
 
   future: {
     v4: true,
