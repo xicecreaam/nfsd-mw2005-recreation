@@ -43,7 +43,7 @@ export default function Home() {
               (WIP) <Link to="/uc" style={{ color: '#d94d4c' }}>Need for Speed: Undercover </Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              (WIP) <Link to="/tr" style={{ color: '#d94d4c' }}>Need for Speed: The Run</Link>
+              <Link to="/tr" style={{ color: '#d94d4c' }}>Need for Speed: The Run</Link> by <Link to="https://www.speedrun.com/users/ItzSamOnPC" style={{ color: '#d94d4c' }}>ItzSamOnPC</Link>
             </li>
           </ul>
         </section>
