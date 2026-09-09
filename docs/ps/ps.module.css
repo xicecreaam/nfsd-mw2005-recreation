@@ -12,6 +12,12 @@
   overflow: hidden;
 }
 
+.cardAnyUnr {
+  background-image: url('img/cards/card test.png');
+  background-size: cover;
+  background-position: center;
+}
+
 .cardContainer {
   --ifm-link-color: var(--ifm-color-emphasis-800);
   --ifm-link-hover-color: var(--ifm-color-emphasis-700);
