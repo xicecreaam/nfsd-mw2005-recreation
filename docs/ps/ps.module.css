@@ -5,6 +5,8 @@
 
 .card {
   background-color: var(--ifm-card-background-color);
+  background-size: cover;
+  background-position: center;
   border-radius: var(--ifm-card-border-radius);
   box-shadow: var(--ifm-global-shadow-lw);
   display: flex;
@@ -13,7 +15,6 @@
 }
 
 .cardAnyUnr {
-  background-image: url('/nfsd-recreation/img/cards/card-test.png');
   background-size: cover;
   background-position: center;
 }
