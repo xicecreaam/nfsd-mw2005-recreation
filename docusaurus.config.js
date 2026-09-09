@@ -111,7 +111,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Need for SpeedDocs Reborn by IceCream.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Need for SpeedDocs Reborn by icec̄ream.`,
       },
       prism: {
         theme: prismThemes.github,
