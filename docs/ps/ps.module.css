@@ -13,7 +13,7 @@
 }
 
 .cardAnyUnr {
-  background-image: url('img/cards/card%20test.png');
+  background-image: url('/nfsd-recreation/img/cards/card-test.png');
   background-size: cover;
   background-position: center;
 }
