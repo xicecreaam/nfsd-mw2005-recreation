@@ -304,6 +304,66 @@ No specific setup required here, just drive through the barrier.
     </div>
 </details>
 
-### Unswap car glitch
+### "Unswap" car glitch
 
-wawa
+Unlike the `Car swap` glitch (which allows you to change the car you're using to any car in the game you have unlocked), the `Unswap car` glitch does the opposite.
+
+### How does it work ?
+
+When you choose a car from a `Car select` screen and you restart the event at a certain moment during the black fade-in screen, you can **keep the car you were driving <u>before</u>** being asked to choose a new car.
+
+To go deeper, during this fade-in screen, the game will change the internal event ID _(from the last Stage 7 event ID to the first Stage 8 event ID)_. You can see it on the UI if you pause buffer :
+
+* You're still on Stage 7 if you see the `Pause menu` text on top-left.
+* You're "considered" on Stage 8 if you don't see the `Pause menu` text anymore.  
+> :warning: If you're using an autosplitter, Livesplit will split during the switch.
+
+The thing is you can still pause during the switch and if you restart the event after having switched ID, the glitch will happen.
+
+> **Note** : you can conclude that the glitch worked if you see **a flickering black screen** during the loading screen after having restarted the event.
+
+This glitch can be used for NG+ **and also** NG runs.
+
+* NG
+
+> This glitch allows you to **keep the Lamborghini Gallardo Balboni after Stage 7 for Stage 8** instead of driving with the Audi R8 _(which is way slower than the Sesto)_.
+
+* NG+
+
+> This glitch allows you to **keep the Lamborghini Sesto Elemento during the whole run**.
+
+There are two ways how to perform the glitch : the **Autosplit** method and the **Elephant** method.
+
+<details className="alert alert--info details">
+  <summary>There are 2 versions of the OOB</summary>
+
+  <Tabs>
+    <TabItem value="clip1" label="Autosplit method" default>
+      <div style={{ position: "relative", paddingBottom: "56.25%", height: 0 }}>
+        <iframe
+          src="https://www.youtube.com/embed/LYOik4sHuao"
+          title="Autosplit method"
+          style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
+          frameBorder="0"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+    </TabItem>
+
+    <TabItem value="clip2" label=""Elephant" method" default>
+      <div style={{ position: "relative", paddingBottom: "56.25%", height: 0 }}>
+        <iframe
+          src="https://www.youtube.com/embed/hw-YnBWeZWs"
+          title=""Elephant" method"
+          style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
+          frameBorder="0"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+    </TabItem>
+  </Tabs>
+</details>
