@@ -12,7 +12,7 @@ function run(cmd) {
   }
 }
 
-// Demander le message de commit
+// Kékyachangé ?
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
