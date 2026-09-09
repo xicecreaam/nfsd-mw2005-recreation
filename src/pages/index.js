@@ -40,7 +40,7 @@ export default function Home() {
               (WIP) <Link to="/ps" style={{ color: '#d94d4c' }}>Need for Speed: ProStreet</Link> by <Link to="https://www.speedrun.com/users/icecreaam" style={{ color: '#d94d4c' }}>icec̄ream</Link>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
-              (WIP) <Link to="/uc" style={{ color: '#d94d4c' }}>Need for Speed: Undercover </Link> <strong>(waiting to be opened like a treasure)</strong>
+              <Link to="/uc" style={{ color: '#d94d4c' }}>Need for Speed: Undercover </Link> <strong>(waiting to be opened like a treasure)</strong>
             </li>
             <li style={{ marginBottom: '0.5rem' }}>
               <Link to="/tr" style={{ color: '#d94d4c' }}>Need for Speed: The Run</Link> by <Link to="https://www.speedrun.com/users/ItzSamOnPC" style={{ color: '#d94d4c' }}>ItzSamOnPC</Link> (NG)
