@@ -5,6 +5,9 @@
 
 .card {
   background-color: var(--ifm-card-background-color);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: var(--ifm-card-border-radius);
   box-shadow: var(--ifm-global-shadow-lw);
   display: flex;
