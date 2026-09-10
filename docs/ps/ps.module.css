@@ -5,18 +5,14 @@
 
 .card {
   background-color: var(--ifm-card-background-color);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   border-radius: var(--ifm-card-border-radius);
   box-shadow: var(--ifm-global-shadow-lw);
   display: flex;
   flex-direction: column;
   overflow: hidden;
-}
-
-.cardAnyUnr {
-  background-size: cover;
-  background-position: center;
 }
 
 .cardContainer {
